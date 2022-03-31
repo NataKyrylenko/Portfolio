@@ -1,0 +1,25 @@
+.about {
+  &__pretitle {
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -20%;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 0%;
+      color: transparent;
+      background: $primary;
+      height: 3px;
+    }
+    &:hover::after {
+      width: 80%;
+      transition: all 0.5s;
+    }
+  }
+}
+.icons-svg {
+  width: 200px;
+}

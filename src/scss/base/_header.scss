@@ -1,0 +1,25 @@
+.header {
+  background-image: url("../i/fons.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 550px;
+  margin-bottom: 50px;
+  &__title {
+    color: $primary;
+    font-weight: bold;
+    letter-spacing: 10px;
+    text-shadow: -1px 0 $white, 0 1px $white, 1px 0 $white, 0 -1px $white;
+    margin-bottom: 50px;
+    font-size: $titleFontSize;
+    margin: 40px 0;
+  }
+}
+.logo__link {
+  height: 170px;
+  width: 170px;
+}
+.nav-link {
+  color: $primary;
+  font-weight: 500;
+}

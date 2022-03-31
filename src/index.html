@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <div class="container">
+          <div class="d-flex justify-content-between">
+            <div class="logo">
+              <a href="#">
+                <img class="logo__link" src="./i/logo.png" alt="logo">
+              </a>
+            </div>
+            <nav class="pt-4">
+              <ul class="nav justify-content-center align-items-center">
+                <li class="nav-item">
+                  <a data-goto=".about" class="nav-link" href="#">About me</a>
+                </li>
+                <li class="nav-item">
+                  <a data-goto=".projects" class="nav-link" href="#">My works</a>
+                </li>
+                <li class="nav-item">
+                  <a data-goto=".contact" class="nav-link" href="#">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <h4 class="text-center">PORTFOLIO SITE</h4>
+          <h3 class="header__title text-center">Kyrylenko Natalia</h3>
+        </div>
+      </header>
+
+      <section class="about">
+        <div class="container text-center">
+          <h3 class="about__title">ABOUT ME</h3>
+          <div class="row text-center my-5">
+            <div class="col-md-4">
+              <h4 class="about__pretitle">About myself</h4>
+              <svg class="icons-svg">
+                <use xlink:href="./i/me.svg#aboutme"></use>
+              </svg>
+              <p>Hi! My name is Natalia Kyrylenko.
+                I am engaged in web development from scratch, turnkey.</p>
+                <p>I do the layout and programming of sites. And as well as refinement,
+                 adding full functionality to the site!</p>
+                 <p>I am making an adaptive layout 
+                 using Bootstrap this site turns out beautiful on any device, be it a
+                  computer, laptop, or phone!</p>
+            </div>   
+            <div class="col-md-4">
+              <h4 class="about__pretitle">Knowledge and Skills</h4>
+              <svg class="icons-svg">
+                <use xlink:href="./i/coding.svg#skills"></use>
+              </svg>
+              <p>I know markup language HTML5, CSS3 style sheets (Flex and Grid), Post & Pre Processing CSS.</p>
+                <p>JavaScript language at the basic level.</p>
+                <p>I know how to design responsive websites for tablets and mobile devices.</p>
+                <p>I can work with Photoshop, Figma.</p>
+                <p>I also know libraries: jQuery, Vue.js, Slick Slider, Bootstrap!
+                Familiar with tools Webpack, Gulp, AJAX, Google Maps API,  version control system Git.</p>
+            </div>
+            <div class="col-md-4">
+              <h4 class="about__pretitle">Self-education</h4>
+              <svg class="icons-svg">
+                <use xlink:href="./i/edu.svg#education"></use>
+              </svg>
+              <p>Online courses, video courses, books, documentation, forums, articles...</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects">
+        <div class="container py-5">
+        <h3 class="text-center">MY WORKS</h3>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 my-3">
+            <div class="projects__card">
+                <div class="projects__img"><img src="./i/Artboard.png" alt="images site Artboard"></div>
+                <div class="projects__mask1"></div>
+                <div class="projects__mask2"></div>
+                <div class="projects__info">
+                  <h3 class="projects__info_title">Artboard</h3>
+                  <a href="https://github.com/NataKyrylenko/Artboard" target="_blank" class="btn">See code</a>
+                  <a href="https://natakyrylenko.github.io/Artboard/" target="_blank" class="btn">See site</a>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 my-3">
+            <div class="projects__card">
+                <div class="projects__img"><img src="./i/Montichello.jpg" alt="images site Montichello"></div>
+                <div class="projects__mask1"></div>
+                <div class="projects__mask2"></div>
+                <div class="projects__info">
+                  <h3 class="projects__info_title">Montichello</h3>
+                  <a href="https://github.com/NataKyrylenko/Montichello" target="_blank" class="btn">See code</a>
+                  <a href="https://natakyrylenko.github.io/Montichello/" target="_blank" class="btn">See site</a>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 my-3">
+            <div class="projects__card">
+                <div class="projects__img"><img src="./i/Productly.jpg" alt="images site Productly"></div>
+                <div class="projects__mask1"></div>
+                <div class="projects__mask2"></div>
+                <div class="projects__info">
+                  <h3 class="projects__info_title">Productly</h3>
+                  <a href="https://github.com/NataKyrylenko/Adaptive_prodactly" target="_blank" class="btn">See code</a>
+                  <a href="https://natakyrylenko.github.io/Adaptive_prodactly/" target="_blank" class="btn">See site</a>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 my-3">
+            <div class="projects__card">
+                <div class="projects__img"><img src="./i/Akad.jpg" alt="images site Akad"></div>
+                <div class="projects__mask1"></div>
+                <div class="projects__mask2"></div>
+                <div class="projects__info">
+                  <h3 class="projects__info_title">Akad</h3>
+                  <a href="https://github.com/NataKyrylenko/Akad" target="_blank" class="btn">See code</a>
+                  <a href="https://natakyrylenko.github.io/Akad/" target="_blank" class="btn">See site</a>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 my-3">
+            <div class="projects__card">
+                <div class="projects__img"><img src="./i/CaseStudy.png" alt="images site CaseStudy"></div>
+                <div class="projects__mask1"></div>
+                <div class="projects__mask2"></div>
+                <div class="projects__info">
+                  <h3 class="projects__info_title">CaseStudy</h3>
+                  <a href="https://github.com/NataKyrylenko/CaseStudy" target="_blank" class="btn">See code</a>
+                  <a href="https://natakyrylenko.github.io/CaseStudy/" target="_blank" class="btn">See site</a>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 my-3">
+            <div class="projects__card">
+                <div class="projects__img"><img src="./i/project JS.png" alt="images site project"></div>
+                <div class="projects__mask1"></div>
+                <div class="projects__mask2"></div>
+                <div class="projects__info">
+                  <h3 class="projects__info_title">Mini Game</h3>
+                  <a href="https://github.com/NataKyrylenko/mini-game" target="_blank" class="btn">See code</a>
+                  <a href="https://natakyrylenko.github.io/mini-game/" target="_blank" class="btn">See site</a>
+                </div>
+              </div>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="container py-5">
+          <h3 class="text-center">CONTACTS</h3>
+          <div class="row text-center">
+            <div class="contact__card col-lg-4 col-sm-6">
+             <a class="contact__link" href="mailto:Natalik10107919@gmail.com">
+               <i class="far fa-envelope fa-2x icon"></i>
+               <h4 class="contact__pretitle">Email</h4>
+              Natalik10107919@gmail.com</a>
+            </div>
+            <div class="contact__card col-lg-4 col-sm-6">             
+              <a class="contact__link" href="tel:+380999367395">
+                <i class="fas fa-phone-alt fa-2x icon"></i>
+                <h4 class="contact__pretitle">Phone</h4>
+              +380999367395</a>
+            </div>
+            <div class="contact__card col-lg-4 col-sm-6">
+              <a class="contact__link" href="https://natakyrylenko.github.io/my-resume/">
+                <i class="fas fa-pager fa-2x icon"></i>
+                <h4 class="contact__pretitle">Resume</h4>
+                natakyrylenko.github.io/my-resume/
+              </a>
+            </div>
+            <div class="contact__card col-lg-4 col-sm-6">
+              <a class="contact__link" href="https://www.linkedin.com/in/nata-kyrylenko/">
+              <i class="fab fa-linkedin-in fa-2x icon"></i>
+              <h4 class="contact__pretitle">Linkedin</h4>
+                linkedin.com/in/nata-kyrylenko</a>
+            </div>
+            <div class="contact__card col-lg-4 col-sm-6">
+              <a class="contact__link" href="https://github.com/NataKyrylenko">
+              <i class="fab fa-github fa-2x icon"></i>
+              <h4 class="contact__pretitle">Github</h4>
+              github.com/NataKyrylenko</a>
+            </div>
+            <div class="contact__card col-lg-4 col-sm-6">
+              <a class="contact__link" href="https://t.me/+380999367395">
+              <i class="fab fa-telegram-plane fa-2x icon"></i>
+              <h4 class="contact__pretitle">Telegram</h4>
+              t.me/+380999367395</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container py-5">
+          <p>&copy; 2022 NataKyrylenko. Website development</p>
+        </div>
+      </footer>
+
+    </main>
+
+    <script src="https://kit.fontawesome.com/2968af8d51.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+.btn {
+  padding: 5px 20px;
+  border: 1px solid $black;
+  border-radius: 15%;
+  margin: 5px;
+  background-color: $white;
+  color: $primary;
+
+  &:hover {
+    color: $white;
+    background-color: $primary;
+    transition: 0.55s ease-in-out;
+  }
+}
